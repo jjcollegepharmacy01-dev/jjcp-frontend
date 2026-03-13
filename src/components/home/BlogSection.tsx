@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const blogs = [
   { title: "Training at Various Hospitals", date: "24 Aug 2023", image: "https://axisip.ac.in/upload/blog/1748600518.webp" },
   { title: "Training on Sophisticated Instruments", date: "24 Aug 2023", image: "https://axisip.ac.in/upload/blog/1692857918.jpg" },
-  { title: "Training at Charitable Blood Center", date: "24 Aug 2023", image: "https://axisip.ac.in/upload/blog/1692857622.jpg" },
-  { title: "Training at Chhatarpur", date: "24 Aug 2023", image: "https://axisip.ac.in/upload/blog/1692857325.jpg" },
+  // { title: "Training at Charitable Blood Center", date: "24 Aug 2023", image: "https://axisip.ac.in/upload/blog/1692857622.jpg" },
+  // { title: "Training at Chhatarpur", date: "24 Aug 2023", image: "https://axisip.ac.in/upload/blog/1692857325.jpg" },
 ];
 
 const BlogSection = () => (

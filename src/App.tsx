@@ -9,6 +9,7 @@ import Programs from "./pages/Programs";
 import Contact from "./pages/Contact";
 import GenericPage from "./pages/GenericPage";
 import NotFound from "./pages/NotFound";
+import Campus from "./pages/Campus";
 
 const queryClient = new QueryClient();
 
@@ -24,7 +25,7 @@ const App = () => (
           <Route path="/programs" element={<Programs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/academics" element={<GenericPage />} />
-          <Route path="/campus" element={<GenericPage />} />
+          <Route path="/campus" element={<Campus />} />
           <Route path="/alumni" element={<GenericPage />} />
           <Route path="/placements" element={<GenericPage />} />
           <Route path="/media" element={<GenericPage />} />

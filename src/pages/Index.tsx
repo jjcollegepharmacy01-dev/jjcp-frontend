@@ -3,6 +3,7 @@ import HeroSlider from "@/components/home/HeroSlider";
 import NewsTicker from "@/components/home/NewsTicker";
 import ProgramsSection from "@/components/home/ProgramsSection";
 import HighlightsSection from "@/components/home/HighlightsSection";
+import CampusSection from "@/components/home/CampusSection";
 import FAQSection from "@/components/home/FAQSection";
 import StatsSection from "@/components/home/StatsSection";
 import RecruitersSection from "@/components/home/RecruitersSection";
@@ -14,6 +15,7 @@ const Index = () => (
     <HeroSlider />
     <NewsTicker />
     <ProgramsSection />
+    <CampusSection />
     <HighlightsSection />
     <FAQSection />
     <StatsSection />
