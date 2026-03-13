@@ -1,8 +1,8 @@
 import Layout from "@/components/layout/Layout";
 import { motion } from "framer-motion";
 import { Target, Eye, Award, Users, BookOpen, Building } from "lucide-react";
-import hero2 from "@/assets/hero-2.jpg";
-import hero3 from "@/assets/hero-3.jpg";
+import hero2 from "@/assets/hero-2.webp";
+import hero3 from "@/assets/hero-3.webp";
 
 const About = () => (
   <Layout>
@@ -36,7 +36,7 @@ const About = () => (
           </p>
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-          <img src={hero3} alt="Students" className="rounded-xl shadow-xl w-full" />
+          <img src={hero3} alt="Students" loading="lazy" className="rounded-xl shadow-xl w-full" />
         </motion.div>
       </div>
     </section>

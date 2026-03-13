@@ -1,5 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import faqBg from "@/assets/faq-bg.jpg";
+import faqBg from "@/assets/faq-bg.webp";
 
 const faqs = [
   {

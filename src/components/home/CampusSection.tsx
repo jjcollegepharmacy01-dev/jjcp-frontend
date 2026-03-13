@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import hero2 from "@/assets/hero-2.jpg";
-import hero4 from "@/assets/hero-4.png";
+import hero2 from "@/assets/hero-2.webp";
+import hero4 from "@/assets/hero-4.webp";
 
 const CampusSection = () => (
   <>
@@ -24,7 +24,7 @@ const CampusSection = () => (
           </p>
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-          <img src={hero2} alt="Learning Environment" className="rounded-xl shadow-xl w-full h-[400px] object-cover" />
+          <img src={hero2} alt="Learning Environment" loading="lazy" className="rounded-xl shadow-xl w-full h-[400px] object-cover" />
         </motion.div>
       </div>
     </section>
@@ -33,7 +33,7 @@ const CampusSection = () => (
     <section className="py-16 bg-secondary">
       <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="order-2 lg:order-1">
-          <img src={hero4} alt="Student Life" className="rounded-xl shadow-xl w-full h-[400px] object-cover" />
+          <img src={hero4} alt="Student Life" loading="lazy" className="rounded-xl shadow-xl w-full h-[400px] object-cover" />
         </motion.div>
         <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="order-1 lg:order-2">
           <div className="h-1 w-12 bg-primary rounded mb-3" />

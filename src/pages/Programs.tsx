@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import hero1 from "@/assets/hero-1.jpg";
+import hero1 from "@/assets/hero-1.webp";
 
 const degreePrograms = [
   { id: "dpharm", title: "D. PHARMA", duration: "2 Years", desc: "Eligibility: 12th Pass with (Maths or Bio)\nAdmission Status: Admission Open (Limited Seats)\n\nDiploma in Pharmacy is a 2-year diploma program that provides foundational knowledge in pharmaceutical sciences and prepares students for careers in pharmacy practice." },

@@ -1,6 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import { useLocation } from "react-router-dom";
-import hero2 from "@/assets/hero-2.jpg";
+import hero2 from "@/assets/hero-2.webp";
 
 const pageTitles: Record<string, { title: string; desc: string }> = {
   "/academics": { title: "Academics", desc: "Academic excellence at JJCP" },

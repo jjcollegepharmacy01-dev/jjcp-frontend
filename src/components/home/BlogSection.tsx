@@ -23,7 +23,7 @@ const BlogSection = () => (
         {blogs.map((blog, i) => (
           <div key={i} className="bg-card rounded-lg border border-border overflow-hidden hover:shadow-lg transition-shadow group">
             <div className="h-48 overflow-hidden">
-              <img src={blog.image} alt={blog.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+              <img src={blog.image} alt={blog.title} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
             </div>
             <div className="p-5">
               <p className="text-xs text-muted-foreground mb-2">{blog.date}</p>

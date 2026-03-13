@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import hero2 from "@/assets/hero-2.jpg";
+import hero2 from "@/assets/hero-2.webp";
 import CampusSection from "@/components/home/CampusSection";
 
 const Campus = () => (
