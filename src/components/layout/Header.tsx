@@ -17,7 +17,21 @@ const navItems = [
       { label: "D. PHARMA", path: "/programs#dpharm" },
     ],
   },
-  { label: "Academics", path: "/academics" },
+  {
+    label: "Academics", path: "/academics/admission-open", // Default to first item if master is clicked
+    children: [
+      { label: "Admission Open", path: "/academics/admission-open" },
+      { label: "Admission Process", path: "/academics/admission-process" },
+      { label: "Teaching Methodology", path: "/academics/teaching-methodology" },
+      { label: "Corporate Resource Center", path: "/academics/corporate-resource-center" },
+      { label: "Our Achievers", path: "/academics/our-achievers" },
+      { label: "Career", path: "/academics/career" },
+      { label: "Committee", path: "/academics/committee" },
+      { label: "Student Testimonial", path: "/academics/student-testimonials" },
+      { label: "Policy", path: "/academics/policy" },
+      { label: "Academic Calendar", path: "/academics/academic-calendar" },
+    ],
+  },
   { label: "Campus", path: "/campus" },
   { label: "Alumni", path: "/alumni" },
   { label: "Training & Placement", path: "/placements" },

@@ -11,6 +11,18 @@ import GenericPage from "./pages/GenericPage";
 import NotFound from "./pages/NotFound";
 import Campus from "./pages/Campus";
 
+// Academics Pages
+import AdmissionOpen from "./pages/academics/AdmissionOpen";
+import AdmissionProcess from "./pages/academics/AdmissionProcess";
+import TeachingMethodology from "./pages/academics/TeachingMethodology";
+import CorporateResourceCenter from "./pages/academics/CorporateResourceCenter";
+import OurAchievers from "./pages/academics/OurAchievers";
+import Career from "./pages/academics/Career";
+import Committee from "./pages/academics/Committee";
+import StudentTestimonials from "./pages/academics/StudentTestimonials";
+import Policy from "./pages/academics/Policy";
+import AcademicCalendar from "./pages/academics/AcademicCalendar";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -24,7 +36,17 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/programs" element={<Programs />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/academics" element={<GenericPage />} />
+          <Route path="/academics/admission-open" element={<AdmissionOpen />} />
+          <Route path="/academics/admission-process" element={<AdmissionProcess />} />
+          <Route path="/academics/teaching-methodology" element={<TeachingMethodology />} />
+          <Route path="/academics/corporate-resource-center" element={<CorporateResourceCenter />} />
+          <Route path="/academics/our-achievers" element={<OurAchievers />} />
+          <Route path="/academics/career" element={<Career />} />
+          <Route path="/academics/committee" element={<Committee />} />
+          <Route path="/academics/student-testimonials" element={<StudentTestimonials />} />
+          <Route path="/academics/policy" element={<Policy />} />
+          <Route path="/academics/academic-calendar" element={<AcademicCalendar />} />
+          
           <Route path="/campus" element={<Campus />} />
           <Route path="/alumni" element={<GenericPage />} />
           <Route path="/placements" element={<GenericPage />} />
