@@ -23,7 +23,7 @@ const AdmissionOpen = () => (
             <h2 className="text-3xl font-heading font-bold text-foreground mb-4">Apply Now</h2>
             <div className="h-1 w-12 bg-primary rounded mb-6" />
             <p className="text-muted-foreground leading-relaxed mb-4">
-              JJ College of Pharmacy is a well established and trusted name in the field of pharmacy education. We are running with the highly demanded D. PHARMA course in Chhatarpur, Madhya Pradesh, with the help of potentially highly qualified and experienced faculties.
+              JJ College of Pharmacy is a well established and trusted name in the field of pharmacy education. We are running with the highly demanded D. PHARMA and B. PHARMA courses in Chhatarpur, Madhya Pradesh, with the help of potentially highly qualified and experienced faculties.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-4">
               JJ College of Pharmacy has been granted approval by Pharmacy Council of India (PCI), New Delhi, and affiliated to R.G.P.V., Bhopal (M.P.). These are the apex bodies controlling technical and professional education in the country and state.

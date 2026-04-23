@@ -29,7 +29,7 @@ const About = () => (
             JJ College of Pharmacy (JJCP) is a premier pharmacy institution located in Chhatarpur (M.P.). Established with a vision for excellence, JJCP is committed to providing quality education in pharmaceutical sciences with a strong emphasis on innovation, research, and industry readiness.
           </p>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Run by RD Education Society, Chhatarpur (M.P.), and Approved by P.C.I. New Delhi (PCI-6188), Affiliated by R.G.P.V., Bhopal (M.P.), the institute offers the D. PHARMA program. Our curriculum is designed to bridge the gap between academic knowledge and industry requirements.
+            Run by RD Education Society, Chhatarpur (M.P.), and Approved by P.C.I. New Delhi (PCI-6188), Affiliated by R.G.P.V., Bhopal (M.P.), the institute offers D. PHARMA and B. PHARMA programs. Our curriculum is designed to bridge the gap between academic knowledge and industry requirements.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             With experienced and proficient young dynamic faculty, fully equipped laboratories with the latest modern equipment and machinery, JJCP prepares students to become competent pharmaceutical professionals ready to make a meaningful contribution to healthcare.

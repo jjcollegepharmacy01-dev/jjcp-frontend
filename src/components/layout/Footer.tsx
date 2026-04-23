@@ -50,7 +50,7 @@ const Footer = () => (
       <div>
         <h4 className="text-lg font-semibold mb-4 text-primary-foreground font-heading">Our Programs</h4>
         <ul className="space-y-2 text-sm">
-          {["D. PHARMA"].map((p) => (
+          {["D. PHARMA", "B. PHARMA"].map((p) => (
             <li key={p}>
               <Link to="/programs" className="hover:text-primary transition-colors opacity-80 hover:opacity-100">
                 {p}
@@ -70,7 +70,7 @@ const Footer = () => (
           </div>
           <div className="flex items-center gap-2">
             <Mail className="h-4 w-4 text-primary shrink-0" />
-            <a href="mailto:jjcollegepharmacy@gmail.com" className="opacity-80 hover:opacity-100">jjcollegepharmacy@gmail.com</a>
+            <a href="mailto:jjcolgofpharmacy@gmail.com" className="opacity-80 hover:opacity-100">jjcolgofpharmacy@gmail.com</a>
           </div>
           <div className="flex items-center gap-2">
             <Globe className="h-4 w-4 text-primary shrink-0" />

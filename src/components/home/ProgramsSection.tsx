@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { BookOpen } from "lucide-react";
+import { BookOpen, GraduationCap } from "lucide-react";
 
 const programs = [
   { icon: BookOpen, title: "D. PHARMA", desc: "2-year Diploma in Pharmacy program" },
+  { icon: GraduationCap, title: "B. PHARMA", desc: "4-year Bachelor in Pharmacy program" },
 ];
 
 const ProgramsSection = () => (

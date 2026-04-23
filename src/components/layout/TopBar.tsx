@@ -7,9 +7,9 @@ const TopBar = () => (
         A golden opportunity to make a career in Allopathic Pharmacy
       </div>
       <div className="flex items-center gap-6">
-        <a href="mailto:jjcollegepharmacy@gmail.com" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity">
+        <a href="mailto:jjcolgofpharmacy@gmail.com" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity">
           <Mail className="h-3.5 w-3.5" />
-          <span className="hidden sm:inline">jjcollegepharmacy@gmail.com</span>
+          <span className="hidden sm:inline">jjcolgofpharmacy@gmail.com</span>
         </a>
         <a href="https://www.jjcp.co.in" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 hover:opacity-80 transition-opacity">
           <Globe className="h-3.5 w-3.5" />

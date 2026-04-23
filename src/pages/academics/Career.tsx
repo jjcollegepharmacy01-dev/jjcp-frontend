@@ -35,7 +35,7 @@ const Career = () => (
                 <h3 className="text-xl font-bold text-foreground mb-2">Ready to join our dynamic faculty team?</h3>
                 <p className="text-muted-foreground">Submit your resume to our administration department.</p>
               </div>
-              <a href="mailto:jjcollegepharmacy@gmail.com" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary-dark transition-colors shrink-0">
+              <a href="mailto:jjcolgofpharmacy@gmail.com" className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-medium rounded-md hover:bg-primary-dark transition-colors shrink-0">
                 <Mail className="h-4 w-4" />
                 Apply Now
               </a>

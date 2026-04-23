@@ -36,7 +36,7 @@ const AdmissionProcess = () => (
               </div>
               <div>
                 <h3 className="font-semibold text-lg mb-2">Enquire About Courses</h3>
-                <p className="text-muted-foreground text-sm">Enquire about our D. PHARMA program and get detailed information from our admission cell.</p>
+                <p className="text-muted-foreground text-sm">Enquire about our D. PHARMA and B. PHARMA programs and get detailed information from our admission cell.</p>
               </div>
             </div>
 

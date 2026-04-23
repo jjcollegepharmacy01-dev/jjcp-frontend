@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, FileDown } from "lucide-react";
+import formPdf from "../../assets/form.pdf";
 
 const navItems = [
   { label: "Home", path: "/" },
@@ -15,6 +16,7 @@ const navItems = [
     label: "Program", path: "/programs",
     children: [
       { label: "D. PHARMA", path: "/programs#dpharm" },
+      { label: "B. PHARMA", path: "/programs#bpharm" },
     ],
   },
   {
@@ -33,10 +35,10 @@ const navItems = [
     ],
   },
   { label: "Campus", path: "/campus" },
-  { label: "Alumni", path: "/alumni" },
+  // { label: "Alumni", path: "/alumni" },
   { label: "Training & Placement", path: "/placements" },
-  { label: "Media", path: "/media" },
-  { label: "Research", path: "/research" },
+  // { label: "Media", path: "/media" },
+  // { label: "Research", path: "/research" },
   { label: "Contact Us", path: "/contact" },
 ];
 
@@ -78,6 +80,19 @@ const Header = () => {
               )}
             </div>
           ))}
+
+          {/* Application Form Download Button */}
+          <a
+            href={formPdf}
+            download="JJCP_Application_Form.pdf"
+            className="application-form-btn"
+            id="desktop-application-form-btn"
+          >
+            <span className="application-form-btn__shimmer" />
+            <FileDown className="h-4 w-4" />
+            <span>Application Form</span>
+            <span className="application-form-btn__tooltip">Click to Download</span>
+          </a>
         </nav>
 
         {/* Mobile toggle */}
@@ -104,6 +119,18 @@ const Header = () => {
               {item.label}
             </Link>
           ))}
+
+          {/* Mobile Application Form Download Button */}
+          <a
+            href={formPdf}
+            download="JJCP_Application_Form.pdf"
+            className="application-form-btn application-form-btn--mobile"
+            id="mobile-application-form-btn"
+            onClick={() => setMobileOpen(false)}
+          >
+            <FileDown className="h-4 w-4" />
+            <span>Application Form</span>
+          </a>
         </nav>
       )}
     </header>

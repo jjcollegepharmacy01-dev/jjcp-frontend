@@ -5,6 +5,7 @@ import hero1 from "@/assets/hero-1.webp";
 
 const degreePrograms = [
   { id: "dpharm", title: "D. PHARMA", duration: "2 Years", desc: "Eligibility: 12th Pass with (Maths or Bio)\nAdmission Status: Admission Open (Limited Seats)\n\nDiploma in Pharmacy is a 2-year diploma program that provides foundational knowledge in pharmaceutical sciences and prepares students for careers in pharmacy practice." },
+  { id: "bpharm", title: "B. PHARMA", duration: "4 Years", desc: "Eligibility: 12th Pass with Physics, Chemistry & Biology/Maths\nAdmission Status: Admission Open (Limited Seats)\n\nBachelor of Pharmacy is a 4-year undergraduate degree program that provides in-depth knowledge of pharmaceutical sciences, drug formulation, pharmacology, and pharmaceutical chemistry. It prepares students for careers in research, industry, clinical practice, and higher studies." },
 ];
 
 const Programs = () => (
@@ -19,12 +20,12 @@ const Programs = () => (
       </div>
     </section>
 
-    {/* Degree Programs */}
-    <section id="dpharm" className="py-16">
+    {/* All Programs */}
+    <section className="py-16">
       <div className="container mx-auto px-4">
         <div className="h-1 w-12 bg-primary rounded mb-3" />
         <h2 className="text-3xl font-heading font-bold text-foreground mb-8">
-          Diploma <span className="text-primary">Programs</span>
+          Our <span className="text-primary">Programs</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {degreePrograms.map((p, i) => (
